@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaseer Portfolio</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #0b0f12;
+      color: #e5e5e5;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #0b0f12, #001a14);
+      border-bottom: 2px solid #00ff99;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00ff99;
+      text-shadow: 0 0 10px #00ff99;
+    }
+
+    header h3 {
+      margin-top: 10px;
+      color: #cccccc;
+      font-weight: 300;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 25px;
+      background: #111417;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,255,153,0.1);
+      border: 1px solid #0e2f26;
+      transition: 0.3s;
+    }
+
+    .section:hover {
+      box-shadow: 0 0 20px rgba(0,255,153,0.4);
+    }
+
+    .section h2 {
+      color: #00ff99;
+      margin-bottom: 12px;
+      border-left: 4px solid #00ff99;
+      padding-left: 10px;
+      font-size: 1.4rem;
+      letter-spacing: 0.5px;
+    }
+
+    p, li {
+      color: #cccccc;
+      line-height: 1.7;
+      font-size: 0.95rem;
+    }
+
+    ul {
+      padding-left: 15px;
+    }
+
+    li::marker {
+      color: #00ff99;
+    }
+
+    .card {
+      background: #0f1417;
+      border: 1px solid #00ff9933;
+      padding: 18px;
+      margin-top: 12px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      background: #141a1d;
+      transform: translateY(-3px);
+      box-shadow: 0 0 10px #00ff9944;
+    }
+
+    .contact-links a {
+      color: #00ff99;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.2s;
+    }
+
+    .contact-links a:hover {
+      text-shadow: 0 0 8px #00ff99;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #777;
+      border-top: 1px solid #003322;
+      margin-top: 40px;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>JASEER VK</h1>
+  <h3>Cybersecurity Researcher • VAPT • Security Analyst</h3>
+</header>
+
+<div class="section">
+  <h2>About Me</h2>
+  <p>
+    I am an aspiring Cybersecurity Researcher and VAPT Analyst with hands-on experience in penetration testing, vulnerability assessments, and real-world exploitation.
+    I work with a variety of tools to uncover security flaws and help strengthen digital systems.  
+    Currently sharpening my skills at Offenso Hackers Academy through active assessments and CTF challenges.
+  </p>
+</div>
+
+<div class="section">
+  <h2>Education</h2>
+
+  <div class="card">
+    <strong>Advanced Diploma in Information Security(Cybersecurity)</strong><br>
+    Offenso Hackers Academy • May 2025 – Present
+  </div>
+
+  <div class="card">
+    <strong>Bachelor of Computer Applications</strong><br>
+    Kannur University • 2022 – 2025
+  </div>
+
+  <div class="card">
+    <strong>Higher Secondary (Biology Science)</strong><br>
+    Kerala Board • 2020 – 2022
+  </div>
+
+  <div class="card">
+    <strong>Secondary School</strong><br>
+    Kerala Board • 2019 – 2020
+  </div>
+</div>
+
+<div class="section">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li>Penetration Testing • Vulnerability Assessment • Exploit Research</li>
+    <li>Incident Response • Threat Hunting</li>
+    <li>Network Security • TCP/IP • Firewalls • SSH</li>
+    <li>Tools: Burp Suite, Nmap, Metasploit, Hydra, John, sqlmap</li>
+    <li>Languages: Python, HTML, Bash</li>
+    <li>Operating Systems: Kali Linux, Ubuntu, Windows Server</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Experience</h2>
+
+  <div class="card">
+    <strong>Cybersecurity Student Intern</strong><br>
+    Offenso Hackers Academy Kochi • May 2025 – Present  
+    <ul>
+      <li>Conduct penetration testing on systems and web applications.</li>
+      <li>Performed assessments using Kali Linux, Burp Suite, Nmap, Metasploit, sqlmap.</li>
+      <li>Explored new tools, frameworks, and attack techniques.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <strong>Android & Web Application Developer</strong><br>
+    Riss Technologies Kannur • Oct 2024 – Mar 2025  
+    <ul>
+      <li>Built a complete Android + Web application as a final year project.</li>
+      <li>Handled UI design, backend integration, and testing.</li>
+      <li>Tech stack: Java, Python, Django, MySQL, HTML</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Projects & Research</h2>
+
+  <div class="card">
+    <strong>Penetration Testing Labs</strong>
+    <ul>
+      <li>Exploited VMs like Windows 7, Metasploitable 2, HF2019, DC-9, Lampiao, HA Joker (THM), Node-1.</li>
+      <li>Performed network scanning and exploitation using Nmap and Metasploit.</li>
+      <li>Developed hands-on ethical hacking and threat analysis skills.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <strong>Android + Web Application</strong>
+    <ul>
+      <li>Built a complete Android and web-based application named "DAYCARE" as part of my final year project.</li>
+      <li>Handled full development cycle: planning → UI → backend → testing.</li>
+      <li>Tech stack: Java, Python, Django, MySQL, HTML</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Certifications</h2>
+  <ul>
+    <li>CompTIA Security+ (Ongoing)</li>
+    <li>AWS Security Speciality • Sep 2025</li>
+    <li>AWS Identity & Access Management • Sep 2025</li>
+    <li>Android & Web Developer • Riss Technologies • Mar 2025</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Achievements</h2>
+  <ul>
+    <li>Linux Security Bootcamp • Sep 2025</li>
+    <li>Windows Pentesting Bootcamp • Sep 2025</li>
+    <li>Steganography & Cryptography Bootcamp • Sep 2025</li>
+    <li>MITM Attack Sniffing Bootcamp • Nov 2025</li>
+    <li>Penetration Testing Phases Bootcamp • Nov 2025</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Exploited Machines</h2>
+  <ul>
+    <li>Windows 7</li>
+    <li>Metasploitable 2</li>
+    <li>HF-2019</li>
+    <li>DC-09</li>
+    <li>Lampiao-1</li>
+    <li>HA Joker (THM)</li>
+    <li>Node-1</li>
+  </ul>
+</div>
+
+<div class="section contact-links">
+  <h2>Contact</h2>
+  <p>
+    🔗 <a href="https://www.linkedin.com/in/jaseer-vk-/" target="_blank">LinkedIn</a><br>
+    📧 <a href="mailto:jaseervk321@gmail.com">Email</a><br>
+    💻 <a href="https://github.com/jaseervk" target="_blank">GitHub</a>
+  </p>
+</div>
+
+<footer>
+  © 2025 JASEER VK • Cybersecurity Researcher
+</footer>
+
+</body>
+</html>
+
